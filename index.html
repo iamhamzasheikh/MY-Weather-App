@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="weather">
+        <h1 class="wide-weather">World Wide Weather</h1>
+    </div>
+
+    <div class="input">
+        <img id="weather-img" src="/Weather13.jpg" alt="weather">
+        <input type="text" id="form-control" placeholder="Enter City Name" class="input-text form-control form-control-lg"/>
+        <button type="button" id="submit" class="btn btn-primary">Search</button>
+    </div>
+    <div id="container">
+        <div class="card">
+            <h1 class="name">  </h1>
+            <p class="temp"></p>
+            <p class="cloud"></p>
+            <p class="desc"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
